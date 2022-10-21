@@ -14,6 +14,10 @@ ul {
     display: flex;
 }
 
+li {
+    margin: 8px;
+}
+
 a {
     text-decoration: none;
 }
@@ -24,6 +28,11 @@ a {
     color: #F9FAF8;
     display: flex;
     justify-content: stretch;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .header a {
@@ -33,4 +42,8 @@ a {
 
 .header ul {
     margin-left: auto;
+}
+
+.container-two {
+    display: flex;
 }
