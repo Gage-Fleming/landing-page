@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-.header, .container-two, .container-three {
+.header, .container-two, .container-three, .container-four {
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -102,6 +102,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 75px;
 }
 
 .container-three h3 {
@@ -130,4 +131,31 @@ a {
     border: 5px solid #3882F6;
     border-radius: 15px;
     margin-bottom: 5px;
+}
+
+.container-four {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-four * {
+    margin: 20px;
+}
+
+.container-four p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote-author {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
 }
