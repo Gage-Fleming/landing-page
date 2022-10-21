@@ -103,3 +103,30 @@ a {
     align-items: center;
     padding-top: 50px;
 }
+
+.container-three h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.repeat-squares {
+    display: flex;
+}
+
+.card {
+    width: 155px;
+    margin: 20px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.blue-square {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
