@@ -34,7 +34,8 @@ a {
 
 .header {
     background-color: #1F2937;
-    font-size: 24px;
+    font-size: 12px;
+    font-weight: bolder;
     color: #F9FAF8;
     display: flex;
     justify-content: stretch;
@@ -61,7 +62,7 @@ a {
 .container-two h2 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 1000;
 }
 
 .container-two p {
