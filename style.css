@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-.header, .container-two {
+.header, .container-two, .container-three {
     padding-left: 15%;
     padding-right: 15%;
 }
