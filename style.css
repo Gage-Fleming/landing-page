@@ -26,6 +26,11 @@ a {
     padding-left: 15%;
     padding-right: 15%;
 }
+
+.header, .container-two {
+    background-color: #1F2937;
+}
+
 .header {
     background-color: #1F2937;
     font-size: 24px;
@@ -50,8 +55,29 @@ a {
     display: flex;
 }
 
+.container-two h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.container-two p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .two-information {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.two-information button {
+    background-color: #3882F6;
+    border: 0px;
+    padding: 10px 30px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px
 }
